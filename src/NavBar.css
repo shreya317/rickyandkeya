@@ -1,0 +1,35 @@
+.NavBar {
+    font-family: 'Old Standard TT', serif;
+}
+
+.NavBar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavBar-options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.NavBar-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.NavBar-main,
+.NavBar-option {
+    margin: 8px;
+    font-size: 1em;
+}
+
+.NavBar-heart{
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,3 +1,13 @@
-.Accommodations{
-    margin: 10px;
+.Accommodations {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.Accommodations-main {
+    flex-grow: 1;
+    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./pictures/acc.jpg");
+    background-size: 100% 100%;
+    align-items: center;
+    background-color: transparent;
 }

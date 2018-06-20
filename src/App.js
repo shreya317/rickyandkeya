@@ -24,7 +24,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className='Main'>
         <NavBar onSelectedNavOption={selectedNavOption => {
           this.setState({selectedNavOption})
         }}/>

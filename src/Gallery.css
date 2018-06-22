@@ -21,6 +21,6 @@
 /* Small screens */
 @media all and (max-width: 500px) {
     .Gallery-main {
-        background-position: -410px -0px; 
+        background-position: -400px -0px; 
     }
 }

@@ -7,7 +7,20 @@
 .Gallery-main {
     flex-grow: 1;
     background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./pictures/gallery.jpg");
-    background-size: 100% 100%;
+    background-position: center bottom;
+    background-size: cover;
     align-items: center;
     background-color: transparent;
+}
+
+
+/* Medium screens  */
+@media all and (max-width: 800px) {
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+    .Gallery-main {
+        background-position: -410px -0px; 
+    }
 }

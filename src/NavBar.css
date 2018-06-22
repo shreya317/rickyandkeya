@@ -7,19 +7,18 @@
     justify-content: space-between;
 }
 
-.NavBar-options{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 10px;
-}
-
 .NavBar-main {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+.NavBar-options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
 
 .NavBar-main,
 .NavBar-option {
@@ -50,6 +49,6 @@
   @media all and (max-width: 500px) {
     .NavBar-options {
       /* On small screens, we are no longer using row direction but column */
-      flex-direction: column;
+      flex-wrap: wrap;
     }
   }

@@ -1,7 +1,11 @@
 .Accommodations {
     display: flex;
     flex-direction: column;
-    height: 100vh; 
+    height: 90vh;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #f4f8ff;
+    padding: 3%;
 }
 
 .Accommodations-main {
@@ -13,6 +17,59 @@
     background-color: transparent;
 }
 
+.Accommodations-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.Accommodations-location{
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.Accommodations-book{
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.Accommodations-book button {
+    margin: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.Accommodations-book a {
+    text-decoration: none;
+}
+
+.Accommodations-book a:hover {
+    color: #0099ff;
+}
+
+.Accommodations-info{
+    font-family: 'Old Standard TT', serif;
+}
+
+.Accommodations-images{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 10px;
+    text-align: center;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 /* Medium screens  */
 @media all and (max-width: 800px) {
 }
@@ -21,5 +78,13 @@
 @media all and (max-width: 500px) {
     .Accommodations-main {
         background-position: -170px -0px; 
+    }
+    .Accommodations-title{
+        font-size: 2em;
+    }
+    .Accommodations-location{
+        font-family: 'Old Standard TT', serif;
+        font-size: 1em;
+        text-align: center;
     }
 }

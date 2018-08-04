@@ -1,7 +1,12 @@
 .Events {
     display: flex;
     flex-direction: column;
-    height: 100vh; 
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #f4f8ff;
+    padding: 5%;
+    text-align: center;
 }
 
 .Events-main {
@@ -11,6 +16,23 @@
     background-size: cover;
     align-items: center;
     background-color: transparent;
+}
+
+.Events-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.Events-info {
+    font-family: 'Old Standard TT', serif;
+}
+
+.Event-info-section{
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 30px;
 }
 
 /* Medium screens  */

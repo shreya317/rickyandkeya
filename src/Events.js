@@ -51,7 +51,7 @@ export default class Events extends Component {
                     <p>Hacienda Beach - Hard Rock Hotel Riviera Maya</p>
                     <p>~</p>
                     <h3>Reception</h3>
-                    <p>Saturday, April 14, 2019</p>
+                    <p>Sunday, April 14, 2019</p>
                     <p>6:00 PM - Cocktails</p>
                     <p>7:00 PM - 11:30 PM - Reception</p>
                     <p>Dinner will be served</p>

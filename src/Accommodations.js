@@ -57,7 +57,13 @@ export default class Accommodations extends Component {
                 <h2 className='Accommodations-location'>Hard Rock Hotel Riviera Maya | Luxury All-Inclusive Resort</h2>
 
                 <div className='Accommodations-images'>
-                    <Gallery images={IMAGES}/>
+                    <Gallery 
+                        images={IMAGES}
+                        enableImageSelection={false}
+                        rowHeight={200}
+                        backdropClosesModal={true}
+                        showLightboxThumbnails={true}
+                    />
                 </div>
 
                 <div className='Accommodations-book'>

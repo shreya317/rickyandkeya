@@ -35,6 +35,25 @@
     margin: 30px;
 }
 
+.Events-button {
+    /* margin: 20px; */
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.Events-button a {
+    text-decoration: none;
+}
+
+.Events-button a:hover {
+    color: #0099ff;
+}
+
 /* Medium screens  */
 @media all and (max-width: 800px) {
 }

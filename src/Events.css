@@ -33,16 +33,20 @@
     font-size: 1.5em;
     text-align: center;
     margin: 30px;
+    color: #2747ad;
+}
+
+.Events-info h3 {
+    color: #56afbc;
 }
 
 .Events-button {
-    /* margin: 20px; */
     color: white;
     padding: 10px 27px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 6px;
 }
 

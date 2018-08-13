@@ -25,7 +25,7 @@ export default class Events extends Component {
                     <p>Lunch will be served</p>
                     <p>Shree Swaminarayan Temple of Itasca</p>
                     <p>21W 710 Irving Park Rd. Itasca, IL 60143</p>
-                    <button className='Events-button'><a href='https://www.google.com/maps/dir//Shree+Swaminarayan+Temple,+21W710+W+Irving+Park+Rd,+Itasca,+IL+60143/@41.9769597,-88.0518311,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x880fadd37ba45e8f:0xf61f103403f92fe!2m2!1d-88.0496424!2d41.9769597!3e0' target='_blank'>Click for directions</a></button>
+                    <button className='Events-button'><a href='https://www.google.com/maps/dir//Shree+Swaminarayan+Temple,+21W710+W+Irving+Park+Rd,+Itasca,+IL+60143/@41.9769597,-88.0518311,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x880fadd37ba45e8f:0xf61f103403f92fe!2m2!1d-88.0496424!2d41.9769597!3e0' target='_blank'>Directions</a></button>
                     <p>~</p>
                     <h3>Ricky's Manglik Prasango</h3>
                     <p>Saturday, April 6, 2019</p>

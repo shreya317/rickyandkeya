@@ -40,6 +40,10 @@
     color: #56afbc;
 }
 
+.Events-info p {
+    font-size: 1.1em;
+}
+
 .Events-button {
     color: white;
     padding: 10px 27px;

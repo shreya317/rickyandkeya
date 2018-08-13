@@ -30,12 +30,6 @@ export default class Events extends Component {
                     <p>10:00 AM onwards</p>
                     <p>Lunch will be served</p>
                     <p>Location TBA</p>
-                    <p>~</p>
-                    <h3>Raas & Garba</h3>
-                    <p>Saturday, April 6, 2019</p>
-                    <p>6:30 PM onwards</p>
-                    <p>Dinner will be served</p>
-                    <p>Location TBA</p>
 
                     <hr/>
                     

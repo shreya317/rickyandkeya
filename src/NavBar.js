@@ -35,6 +35,7 @@ export default class NavBar extends Component {
                         <div className='NavBar-option'><a name={NAV_OPTIONS.EVENTS} onClick={(e) => this.handleClick(e)}> Events </a></div>
                         <div className='NavBar-option'><a name={NAV_OPTIONS.ACCOMMODATIONS} onClick={(e) => this.handleClick(e)}> Accommodations </a></div>
                         <div className='NavBar-option'><a name={NAV_OPTIONS.GALLERY} onClick={(e) => this.handleClick(e)}> Gallery </a></div>
+                        <div className='NavBar-option'><a name={NAV_OPTIONS.CONTACT} onClick={(e) => this.handleClick(e)}> Contact Us </a></div>                        
                     </div>
                 </div>
             </div>

@@ -10,6 +10,7 @@ import Events from './Events';
 import Gallery from './Gallery';
 import NavBar from './NavBar';
 import Story from './Story';
+import Contact from './Contact';
 
 //Utils
 import {NAV_OPTIONS} from './constants.js';
@@ -55,6 +56,7 @@ class App extends Component {
         {this.state.selectedNavOption === NAV_OPTIONS.EVENTS && (<Events/>)}
         {this.state.selectedNavOption === NAV_OPTIONS.ACCOMMODATIONS && (<Accommodations/>)}
         {this.state.selectedNavOption === NAV_OPTIONS.GALLERY && (<Gallery/>)}
+        {this.state.selectedNavOption === NAV_OPTIONS.CONTACT && (<Contact/>)}
       </div>
     );
   }

@@ -1,7 +1,46 @@
 import React, { Component } from 'react';
+import Gallery from 'react-grid-gallery';
 
 // CSS
 import './Accommodations.css'
+
+const IMAGES = [
+        {
+        src: require('./pictures/acc-resort.png'),
+        thumbnail: require('./pictures/acc-resort.png'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
+    },
+    {
+        src: require('./pictures/acc-2.png'),
+        thumbnail: require('./pictures/acc-2.png'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
+    },
+    {
+        src: require('./pictures/acc-1.png'),
+        thumbnail: require('./pictures/acc-1.png'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
+    },
+    {
+        src: require('./pictures/acc-3.png'),
+        thumbnail: require('./pictures/acc-3.png'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
+    },
+    {
+        src: require('./pictures/acc-4.png'),
+        thumbnail: require('./pictures/acc-4.png'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
+    }
+]
 
 export default class Accommodations extends Component {
     render () {
@@ -13,13 +52,12 @@ export default class Accommodations extends Component {
             //         </div>
             //     </div>
             // </div>
-
             <div className='Accommodations'>
                 <h1 className='Accommodations-title'>Accommodations</h1>
                 <h2 className='Accommodations-location'>Hard Rock Hotel Riviera Maya | Luxury All-Inclusive Resort</h2>
 
                 <div className='Accommodations-images'>
-                    <img src={require('./pictures/acc-resort.png')} width='700'/>
+                    <Gallery images={IMAGES}/>
                 </div>
 
                 <div className='Accommodations-book'>

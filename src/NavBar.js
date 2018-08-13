@@ -26,16 +26,16 @@ export default class NavBar extends Component {
             <div className='NavBar'>
                 <div className='NavBar-container'>
                     <div className='NavBar-main'>
-                        <img className='NavBar-heart' src={heart} alt="heart"/> <a name={NAV_OPTIONS.HOME} onClick={e => this.handleClick(e)}>{getCountDownDays()} Days</a>
+                        <a name={NAV_OPTIONS.HOME} onClick={e => this.handleClick(e)}>Ricky & Keya<img className='NavBar-heart' src={heart} alt="heart"/>{getCountDownDays()} Days</a>
                     </div>
                     <div className='NavBar-options'>
-                        <div className='NavBar-option'><a name={NAV_OPTIONS.HOME} onClick={e => this.handleClick(e)}> Home </a> </div>
-                        <div className='NavBar-option'><a name={NAV_OPTIONS.STORY} onClick={(e) => this.handleClick(e)}>Our Story</a> </div>
-                        <div className='NavBar-option'><a name={NAV_OPTIONS.WEDDING_PARTY} onClick={(e) => this.handleClick(e)}> Wedding Party</a> </div>
-                        <div className='NavBar-option'><a name={NAV_OPTIONS.EVENTS} onClick={(e) => this.handleClick(e)}> Events </a></div>
-                        <div className='NavBar-option'><a name={NAV_OPTIONS.ACCOMMODATIONS} onClick={(e) => this.handleClick(e)}> Accommodations </a></div>
-                        <div className='NavBar-option'><a name={NAV_OPTIONS.GALLERY} onClick={(e) => this.handleClick(e)}> Gallery </a></div>
-                        <div className='NavBar-option'><a name={NAV_OPTIONS.CONTACT} onClick={(e) => this.handleClick(e)}> Contact Us </a></div>                        
+                        <div className='NavBar-option'><a name={NAV_OPTIONS.HOME} onClick={e => this.handleClick(e)}>Home</a></div>
+                        <div className='NavBar-option'><a name={NAV_OPTIONS.STORY} onClick={(e) => this.handleClick(e)}>Our Story</a></div>
+                        <div className='NavBar-option'><a name={NAV_OPTIONS.WEDDING_PARTY} onClick={(e) => this.handleClick(e)}>Wedding Party</a></div>
+                        <div className='NavBar-option'><a name={NAV_OPTIONS.EVENTS} onClick={(e) => this.handleClick(e)}>Events</a></div>
+                        <div className='NavBar-option'><a name={NAV_OPTIONS.ACCOMMODATIONS} onClick={(e) => this.handleClick(e)}>Accommodations</a></div>
+                        <div className='NavBar-option'><a name={NAV_OPTIONS.GALLERY} onClick={(e) => this.handleClick(e)}>Gallery</a></div>
+                        <div className='NavBar-option'><a name={NAV_OPTIONS.CONTACT} onClick={(e) => this.handleClick(e)}>Contact Us</a></div>                        
                     </div>
                 </div>
             </div>

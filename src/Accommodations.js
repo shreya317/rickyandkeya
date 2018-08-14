@@ -5,9 +5,16 @@ import Gallery from 'react-grid-gallery';
 import './Accommodations.css'
 
 const IMAGES = [
-        {
-        src: require('./pictures/acc-resort.png'),
-        thumbnail: require('./pictures/acc-resort.png'),
+    {
+        src: require('./pictures/acc-9.png'),
+        thumbnail: require('./pictures/acc-9.png'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
+    },
+    {
+        src: require('./pictures/acc-10.png'),
+        thumbnail: require('./pictures/acc-10.png'),
         thumbnailWidth: 320,
         thumbnailHeight: 212,
         caption: "Hard Rock Hotel Riviera Maya"
@@ -39,7 +46,50 @@ const IMAGES = [
         thumbnailWidth: 320,
         thumbnailHeight: 212,
         caption: "Hard Rock Hotel Riviera Maya"
+    },
+    {
+        src: require('./pictures/acc-5.jpg'),
+        thumbnail: require('./pictures/acc-5.jpg'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
+    },
+    {
+        src: require('./pictures/acc-6.jpg'),
+        thumbnail: require('./pictures/acc-6.jpg'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
+    },
+    {
+        src: require('./pictures/acc-7.jpg'),
+        thumbnail: require('./pictures/acc-7.jpg'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
+    },
+    {
+        src: require('./pictures/acc-8.png'),
+        thumbnail: require('./pictures/acc-8.png'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
+    },
+    {
+        src: require('./pictures/acc-11.png'),
+        thumbnail: require('./pictures/acc-11.png'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
+    },
+    {
+        src: require('./pictures/acc-12.png'),
+        thumbnail: require('./pictures/acc-12.png'),
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Hard Rock Hotel Riviera Maya"
     }
+    
 ]
 
 export default class Accommodations extends Component {
@@ -63,6 +113,7 @@ export default class Accommodations extends Component {
                         rowHeight={200}
                         backdropClosesModal={true}
                         showLightboxThumbnails={true}
+                        maxRows={1}
                     />
                 </div>
 

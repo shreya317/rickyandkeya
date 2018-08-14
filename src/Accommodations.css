@@ -65,6 +65,7 @@
 
 .Accommodations-images{
     flex-direction: column;
+    justify-content: center;
     flex-wrap: nowrap;
     margin: 10px;
     text-align: center;

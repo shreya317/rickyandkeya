@@ -37,6 +37,10 @@
     margin-bottom: 20px;
 }
 
+.Contact img {
+    width: 90%;
+}
+
 
 /* Medium screens  */
 @media all and (max-width: 800px) {

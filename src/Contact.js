@@ -15,7 +15,7 @@ export default class Contact extends Component {
                     <p>by e-mailing <a href="mailto:hello@shaadidestinations.com">hello@shaadidestinations.com</a> with the subject line Ricky & Keya.</p>
                     <p>If you have any other questions or concerns please email us at <a href="mailto:rickyandkeya@gmail.com">rickyandkeya@gmail.com</a>.</p>
                 </div>
-                <div className='Contact-main'></div>
+                <div><img src={require('./pictures/acc.jpg')}/></div>
             </div>
         )
     }

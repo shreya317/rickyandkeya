@@ -1,22 +1,20 @@
 .Events {
-    display: flex;
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
     overflow-y: auto;
     background-color: #f4f8ff;
     padding: 5%;
-    text-align: center;
 }
 
-.Events-main {
+/* .Events-main {
     flex-grow: 1;
     background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./pictures/events.jpg");
     background-position: center bottom;
     background-size: cover;
     align-items: center;
     background-color: transparent;
-}
+} */
 
 .Events-title {
     font-family: 'Dancing Script', cursive;
@@ -26,18 +24,31 @@
 
 .Events-info {
     font-family: 'Old Standard TT', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 4%;
 }
 
 .Event-info-section{
     font-family: 'Old Standard TT', serif;
     font-size: 1.5em;
     text-align: center;
-    margin: 30px;
+    margin: 4%;
     color: #2747ad;
 }
 
 .Events-info h3 {
     color: #56afbc;
+}
+
+.Events-info img, .Events-desc {
+    width: 500px;
+}
+
+.Events-desc {
+    text-align: center;
+    align-self: center;
 }
 
 .Events-info p {
@@ -70,5 +81,13 @@
 @media all and (max-width: 500px) {
     .Events-main {
         background-position: -370px -0px; 
+    }
+
+    .Events-info {
+        flex-wrap: wrap;
+    }
+
+    .Events-desc {
+        margin: 4%;
     }
 }

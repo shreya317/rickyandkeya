@@ -7,7 +7,7 @@ import './App.css';
 import Accommodations from './Accommodations';
 import WeddingParty from './WeddingParty';
 import Events from './Events';
-import Gallery from './Gallery';
+import Photos from './Photos';
 import NavBar from './NavBar';
 import Story from './Story';
 import Contact from './Contact';
@@ -55,7 +55,7 @@ class App extends Component {
         {this.state.selectedNavOption === NAV_OPTIONS.WEDDING_PARTY && (<WeddingParty/>)}
         {this.state.selectedNavOption === NAV_OPTIONS.EVENTS && (<Events/>)}
         {this.state.selectedNavOption === NAV_OPTIONS.ACCOMMODATIONS && (<Accommodations/>)}
-        {this.state.selectedNavOption === NAV_OPTIONS.GALLERY && (<Gallery/>)}
+        {this.state.selectedNavOption === NAV_OPTIONS.PHOTOS && (<Photos/>)}
         {this.state.selectedNavOption === NAV_OPTIONS.CONTACT && (<Contact/>)}
       </div>
     );

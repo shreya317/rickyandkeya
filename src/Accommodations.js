@@ -173,8 +173,9 @@ export default class Accommodations extends Component {
                     <ul>
                         <li>
                             <p><b>What are the visa and/or passport requirements for Mexico?</b></p>
-                            <p>Travel to Mexico requires valid passports, even for US Citizens. Please ensure that your passport expires after October 12, 2019 (6 months from the date of entry into Mexico).</p>
-                            <p>Mexico has no visa requirement for US Citizens, but you will be asked to fill out an FMM form (Mexico's visitor permit) on the plane or once you land. Once you get to immigration and customs at Cancún airport, the agents will give you the bottom half to retain until you leave the country. It is VERY important to keep this secure until you leave Mexico.</p>        
+                            <p>All travelers will require a valid passport for entry into Mexico; passport must be valid up to 6 months beyond the date of entry (should be valid until at least October 16, 2019)</p>
+                            <p>US citizens/green-card holders and guests with a UK or Australian passport do not need a visa to enter Mexico; guests with an Indian passport who have an active US visa also do not require a visa to enter Mexico. All other guests must obtain visas in order to enter Mexico.</p>        
+                            <p>All travelers will be asked to fill out an FMM form (Mexico's visitor permit) on the plane or once you land. Once you get to immigration and customs at Cancún airport, the agents will give you the bottom half to retain until you leave the country. It is VERY important to keep this secure until you leave Mexico.</p>
                         </li>
                         <li>
                             <p><b>Is there transportation being provided between the airport and the resort?</b></p>

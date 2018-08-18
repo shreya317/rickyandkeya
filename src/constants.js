@@ -4,6 +4,7 @@ export const NAV_OPTIONS = {
     WEDDING_PARTY: 'wedding party',
     EVENTS: 'events',
     ACCOMMODATIONS: 'accommodations',
+    PHOTOS: 'photos',
     GALLERY: 'gallery',
     CONTACT: 'contact'
 }

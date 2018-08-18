@@ -19,7 +19,7 @@ export default class Photos extends Component {
                     </div>
                 </div> */}
                 <h1 className='Photos-title'>Photos</h1>
-                <h2 className='Photos-info-section'>PROPOSAL | APRIL 21, 2017</h2>
+                <h2 className='Photos-info-section'>PROPOSAL • APRIL 21, 2017</h2>
                 <div className='Photos-gallery'>
                     <Gallery 
                         images={PROPOSAL_IMAGES}
@@ -30,7 +30,7 @@ export default class Photos extends Component {
                         maxRows={1}
                     />
                 </div>
-                <h2 className='Photos-info-section'>ENGAGEMENT CEREMONY | OCTOBER 21, 2017</h2>
+                <h2 className='Photos-info-section'>ENGAGEMENT CEREMONY • OCTOBER 21, 2017</h2>
                 <div className='Photos-gallery'>
                     <Gallery 
                         images={ENGAGEMENT_IMAGES}

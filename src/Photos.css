@@ -31,11 +31,9 @@
     color: #2747ad;
 }
 
-.Photos-gallery {
-    /* margin-bottom: 4%; */
+.Photos-Gallery{
+    flex-wrap: nowrap;
 }
-
-
 
 /* Medium screens  */
 @media all and (max-width: 800px) {
@@ -45,5 +43,9 @@
 @media all and (max-width: 500px) {
     .Photos-main {
         background-position: -400px -0px; 
+    }
+
+    .Photos-info-section{
+        font-size: 1.1em;
     }
 }

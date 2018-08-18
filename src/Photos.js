@@ -19,7 +19,7 @@ export default class Photos extends Component {
                     </div>
                 </div> */}
                 <h1 className='Photos-title'>Photos</h1>
-                <h2 className='Photos-info-section'>PROPOSAL | APRIL 23, 2017</h2>
+                <h2 className='Photos-info-section'>PROPOSAL | APRIL 21, 2017</h2>
                 <div className='Photos-gallery'>
                     <Gallery 
                         images={PROPOSAL_IMAGES}

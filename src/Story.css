@@ -1,17 +1,51 @@
 .Story {
-    display: flex;
     flex-direction: column;
-    height: 100vh; 
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #f4f8ff;
+    padding: 5%;
 }
 
-.Story-main {
+.Story-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.Story-info {
+    font-family: 'Old Standard TT', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Story-desc {
+    padding: 2%;
+}
+
+.Story-info-section{
+    font-size: 1.5em;
+    text-align: center;
+    color: #2747ad;
+}
+
+.Story-img {
+    text-align: center;
+}
+
+.Story img {
+    width: 60%;
+}
+
+/* .Story-main {
     flex-grow: 1;
     background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./pictures/story.jpg");
     background-position: center bottom;
     background-size: cover;
     align-items: center;
     background-color: transparent;
-}
+} */
 
 /* Medium screens  */
 @media all and (max-width: 500px) {

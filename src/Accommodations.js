@@ -124,12 +124,12 @@ export default class Accommodations extends Component {
                 
                 <div className='Accommodations-info'>
                     <h3>Hard Rock Hotel Riviera Maya is where luxury meets satisfaction.</h3>
-                    <p>We invite you to live large and enjoy the very best of paradise while celebrating their wedding on a stage of stunning tropical views with private white sand beaches and crystal-clear water.</p>
+                    <p>We invite you to live large and enjoy the very best of paradise while celebrating our wedding on a stage of stunning tropical views with private white sand beaches and crystal-clear water.</p>
                     <p>Come kick into high gear with activities from tennis and rock climbing to kayaking and golf. Swim in style in one of the many large sparkling pools with swim-up bars or take a little dive and snorkel in the lagoons. Indulge in treatments from massages to facials to hydrotherapy and satisfy your palate at any of the seven exceptional all-inclusive restaurants. Even spoil yourself with free 24-hour room service. </p>
-                    <p>Most important of all, get ready to party like a rock star with the bride and groom to be.</p>
+                    <p>Most important of all, get ready to party like a rock star with us as we get married.</p>
                     <hr/>
                     <h3>GROUP BOOKING DETAILS</h3>
-                    <p>We have secured discounted group rates for all of their guests through Shaadi Destinations.</p>
+                    <p>We have secured discounted group rates for all of our guests through Shaadi Destinations.</p>
                     <p>Reserve your room today for $200.00 / room by clicking the link above (final payments will be due at time of check-in). The above link will take you through Shaadi Destinations’ booking portal, where you will be able to select room type, amount and travel dates, to enter in number/names of guests and to securely pay your deposit.</p>
                     <p>All rooms MUST be booked through the group block ON THIS SITE in order to secure the discounted rate and group promotions (including double resort credit), complimentary round-trip airport transportation, and access to all wedding events.</p>
                     <p>Bookings made through other 3rd parties, private travel agents, or directly through the Hard Rock website will not be honored and an additional fee will be required to attend wedding events.</p>

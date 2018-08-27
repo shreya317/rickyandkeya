@@ -130,7 +130,7 @@ export default class Accommodations extends Component {
                     <hr/>
                     <h3>GROUP BOOKING DETAILS</h3>
                     <p>We have secured discounted group rates for all of our guests through Shaadi Destinations.</p>
-                    <p>Reserve your room today for $200.00 / room by clicking the link above (final payments will be due at time of check-in). The above link will take you through Shaadi Destinations’ booking portal, where you will be able to select room type, amount and travel dates, to enter in number/names of guests and to securely pay your deposit.</p>
+                    <p>Reserve your room today for a security deposit of $200, which will be applied to your final payment that is due at the time of check-in. The above link will take you through Shaadi Destinations’ booking portal, where you will be able to select room type, amount and travel dates, to enter in number/names of guests and to securely pay your deposit.</p>
                     <p>All rooms MUST be booked through the group block ON THIS SITE in order to secure the discounted rate and group promotions (including double resort credit), complimentary round-trip airport transportation, and access to all wedding events.</p>
                     <p>Bookings made through other 3rd parties, private travel agents, or directly through the Hard Rock website will not be honored and an additional fee will be required to attend wedding events.</p>
                     <p>All bookings must be made by February 1, 2019.</p>

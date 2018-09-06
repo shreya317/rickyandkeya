@@ -1,16 +1,87 @@
 .WeddingParty {
-    display: flex;
     flex-direction: column;
-    height: 100vh; 
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #f4f8ff;
+    padding: 5%;
 }
 
-.WeddingParty-main {
+/* .WeddingParty-main {
     flex-grow: 1;
     background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./pictures/wedding_party.jpg");
     background-position: center bottom;
     background-size: cover;
     align-items: center;
     background-color: transparent;
+} */
+
+.WeddingParty-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.WeddingParty-info {
+    font-family: 'Old Standard TT', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.WeddingParty-desc {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.WeddingParty-info-section{
+    font-size: 1.5em;
+    text-align: center;
+    color: #2747ad;
+}
+
+.Wedding-img {
+    text-align: center;
+}
+
+.WeddingParty-img a {
+    background: white;
+    display: inline;
+    float: left;
+    margin: 15px;
+    padding: 10px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    transition: all .15s linear;
+    z-index:0;
+    position:relative;
+}
+
+.WeddingParty-img a:after {
+    color: #333;
+    font-size: 20px;
+    content: attr(title);
+    position: relative;
+    top:15px;
+}
+
+.WeddingParty-img img { 
+    display: block; 
+    width: inherit; 
+
+}
+
+.WeddingParty-name {
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 /* Medium screens  */

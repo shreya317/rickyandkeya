@@ -6,5 +6,6 @@ export const NAV_OPTIONS = {
     ACCOMMODATIONS: 'accommodations',
     PHOTOS: 'photos',
     GALLERY: 'gallery',
-    CONTACT: 'contact'
+    CONTACT: 'contact',
+    FEED: 'FEED',
 }

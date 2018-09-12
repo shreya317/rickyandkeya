@@ -11,6 +11,7 @@ import Photos from './Photos';
 import NavBar from './NavBar';
 import Story from './Story';
 import Contact from './Contact';
+import Feed from './Feed'
 
 //Utils
 import {NAV_OPTIONS} from './constants.js';
@@ -56,6 +57,7 @@ class App extends Component {
         {this.state.selectedNavOption === NAV_OPTIONS.EVENTS && (<Events/>)}
         {this.state.selectedNavOption === NAV_OPTIONS.ACCOMMODATIONS && (<Accommodations/>)}
         {this.state.selectedNavOption === NAV_OPTIONS.PHOTOS && (<Photos/>)}
+        {this.state.selectedNavOption === NAV_OPTIONS.FEED && (<Feed/>)}
         {this.state.selectedNavOption === NAV_OPTIONS.CONTACT && (<Contact/>)}
       </div>
     );

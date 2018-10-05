@@ -31,6 +31,8 @@ export default class BridalParty extends Component {
                         <h3 className='WeddingParty-name'>Krupa</h3>
                         <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require('./pictures/weddingparty/mansi.png')} alt="Mansi" title="Mansi"/></a></div>
                         <h3 className='WeddingParty-name'>Mansi</h3>
+                        <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require('./pictures/weddingparty/moni.png')} alt="Monika" title="Monika"/></a></div>
+                        <h3 className='WeddingParty-name'>Monika</h3>
                         <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require('./pictures/weddingparty/nisha.png')} alt="Nisha" title="Nisha"/></a></div>
                         <h3 className='WeddingParty-name'>Nisha</h3>
                         <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require('./pictures/weddingparty/nishar.png')} alt="Nisha" title="Nisha"/></a></div>
@@ -71,8 +73,8 @@ export default class BridalParty extends Component {
                         <h3 className='WeddingParty-name'>Rishin</h3>
                         <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require('./pictures/weddingparty/rushi.png')} alt="Rushi" title="Rushi"/></a></div>
                         <h3 className='WeddingParty-name'>Rushi</h3>
-                        <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require('./pictures/weddingparty/saajan.png')} alt="Saajan" title="Saajan"/></a></div>
-                        <h3 className='WeddingParty-name'>Saajan</h3>
+                        <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require('./pictures/weddingparty/saajan.png')} alt="Sajan" title="Sajan"/></a></div>
+                        <h3 className='WeddingParty-name'>Sajan</h3>
                         <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require('./pictures/weddingparty/sachin.png')} alt="Sachin" title="Sachin"/></a></div>
                         <h3 className='WeddingParty-name'>Sachin</h3>
                         <div className='WeddingParty-img'><a href="" title=""><img height="300" src={require('./pictures/weddingparty/sujay.png')} alt="Sujay" title="Sujay"/></a></div>

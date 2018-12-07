@@ -23,9 +23,9 @@ export default class Events extends Component {
                         <p>Saturday, April 6, 2019</p>
                         <p>9:30 AM onwards</p>
                         <p>Lunch will be served</p>
-                        <p>Shree Swaminarayan Temple of Itasca</p>
-                        <p>21W 710 Irving Park Rd. Itasca, IL 60143</p>
-                        <button className='Events-button'><a href='https://www.google.com/maps/dir//Shree+Swaminarayan+Temple,+21W710+W+Irving+Park+Rd,+Itasca,+IL+60143/@41.9769597,-88.0518311,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x880fadd37ba45e8f:0xf61f103403f92fe!2m2!1d-88.0496424!2d41.9769597!3e0' target='_blank'>Directions</a></button>
+                        <p>Shree Swaminarayan Temple</p>
+                        <p>1020 Bapa Road, Streamwood, IL 60107</p>
+                        <button className='Events-button'><a href='https://goo.gl/maps/u2zzSSfcwU82' target='_blank'>Directions</a></button>
                     </div>
                     <div className='Events-pic'>
                         <img src={require('./pictures/events-1.png')} width='700'/>
@@ -35,9 +35,11 @@ export default class Events extends Component {
                     <div className='Events-desc'>
                         <h3>Ricky's Manglik Prasango</h3>
                         <p>Saturday, April 6, 2019</p>
-                        <p>10:00 AM onwards</p>
-                        <p>Lunch will be served</p>
-                        <p>Location TBA</p>
+                        <p>3:00 PM onwards</p>
+                        <p>Pearl Banquets Conference Center</p>
+                        <p>1490 W Lake St., Riddle, IL 60172</p>
+                        <button className='Events-button'><a href='https://goo.gl/maps/TRhuc2ZbbdQ2' target='_blank'>Directions</a></button>
+
                     </div>
                     <div className='Events-pic'>
                         <img src={require('./pictures/events-2.png')} width='700'/>
@@ -47,7 +49,7 @@ export default class Events extends Component {
                 <h2 className='Event-info-section'>RIVIERA MAYA, MEXICO</h2>
                 <div className='Events-info'>
                     <div className='Events-desc'>
-                        <h3>Welcome Dinner & Sangeet</h3>
+                        <h3>Mehndi & Sangeet</h3>
                         <p>Friday, April 12, 2019</p>
                         <p>6:00 PM - 10:00 PM</p>
                         <p>Dinner will be served</p>

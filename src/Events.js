@@ -37,7 +37,7 @@ export default class Events extends Component {
                         <p>Saturday, April 6, 2019</p>
                         <p>3:00 PM onwards</p>
                         <p>Pearl Banquets Conference Center</p>
-                        <p>1490 W Lake St., Riddle, IL 60172</p>
+                        <p>1490 W Lake Street, Roselle, IL 60172</p>
                         <button className='Events-button'><a href='https://goo.gl/maps/TRhuc2ZbbdQ2' target='_blank'>Directions</a></button>
 
                     </div>

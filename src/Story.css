@@ -74,6 +74,14 @@
     .Story-info {
         display: inline;
     }
+
+    .Story-title {
+        font-size: 2.5em;
+    }
+
+    .Story-info-section {
+        font-size: 1.1em;
+    }
 }
 
 

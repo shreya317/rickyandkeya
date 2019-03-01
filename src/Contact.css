@@ -65,4 +65,12 @@
     .Contact-main {
         background-position: -400px -0px; 
     }
+
+    .Contact-title {
+        font-size: 2.5em;
+    }
+
+    .Contact-info {
+        font-size: 14px;
+    }
 }

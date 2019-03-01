@@ -107,4 +107,12 @@
     .Events-desc {
         margin: 4%;
     }
+
+    .Events-title {
+        font-size: 2.5em;
+    }
+
+    .Event-info-section {
+        font-size: 1.1em;
+    }
 }

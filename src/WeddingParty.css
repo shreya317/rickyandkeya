@@ -76,7 +76,6 @@
 .WeddingParty-img img { 
     display: block; 
     width: inherit; 
-
 }
 
 .WeddingParty-name {
@@ -90,4 +89,21 @@
 
 /* Small screens */
 @media all and (max-width: 500px) {
+    .WeddingParty-info {
+        display: inline;
+    }
+
+    .WeddingParty img {
+        height: 200px;
+        padding: 0px;
+    }
+    
+    .WeddingParty h3 {
+        font-size: 16px;
+    }
+
+    .WeddingParty-desc {
+        padding: 0px;
+        flex-wrap: nowrap;
+    }
 }

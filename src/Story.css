@@ -70,6 +70,10 @@
     .Story-main {
         background-position: -530px -0px; 
     }
+
+    .Story-info {
+        display: inline;
+    }
 }
 
 

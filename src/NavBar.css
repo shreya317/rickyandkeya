@@ -48,6 +48,10 @@
   
   /* Small screens */
   @media all and (max-width: 500px) {
+    .NavBar-main {
+        display: none;
+    }
+
     .NavBar-options {
       /* On small screens, we are no longer using row direction but column */
       flex-wrap: wrap;

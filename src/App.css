@@ -67,7 +67,7 @@
 }
 
 /* Medium screens */
-@media all and (max-width: 500px) {
+@media all and (max-width: 800px) {
   .App {
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     justify-content: space-around;
@@ -95,7 +95,8 @@
   }
 
   .App-main {
-    background-position: -360px -0px;
+    background-image: url("./pictures/home-mobile.jpg");
+    /* background-position: -360px -0px; */
   }
 
   .App-title {

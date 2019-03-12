@@ -38,6 +38,8 @@
 .App-intro {
   text-align: center;
   color: white;
+  position: absolute;
+  left: 15%;
 }
 
 .App-title {

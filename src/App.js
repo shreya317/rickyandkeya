@@ -12,6 +12,7 @@ import NavBar from './NavBar';
 import Story from './Story';
 import Contact from './Contact';
 import Feed from './Feed'
+import {getCountDownDays} from './NavBar';
 
 //Utils
 import {NAV_OPTIONS} from './constants.js';
@@ -34,19 +35,10 @@ class App extends Component {
           <div className="App">
             <div className='App-main'>
               <div className='App-intro'>
-                <div className='flex-dir-row'>
-                  <div className='flex-grow'>
-                    <h1 className="App-title">Ricky & Keya</h1>
-                    <p className="App-date">April 13, 2019</p>
-                  </div>
-                  <div className='flex-grow'></div>
-                  <div className='flex-grow'></div>
-                </div>
-                <div className='flex-dir-row'>
-                  <div className='flex-grow'></div>
-                  <div className='flex-grow'></div>
-                  <div className='flex-grow'>
-                  </div>
+                <div className='flex-grow'>
+                  <h1 className="App-title">Ricky & Keya</h1>
+                  <p className="App-date">April 13, 2019 | Riviera Maya, Mexico</p>
+                  <p className='App-countdown'>{getCountDownDays()} days to go!</p>
                 </div>
               </div>
             </div>

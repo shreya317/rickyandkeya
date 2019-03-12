@@ -7,7 +7,7 @@ import heart from './pictures/heart.png'
 // Utils
 import {NAV_OPTIONS} from './constants.js';
 
-const getCountDownDays = () => {
+export const getCountDownDays = () => {
     const weddingDay = new Date('April 13, 2019').getTime();
     const today = new Date();
     const distance = weddingDay - today;

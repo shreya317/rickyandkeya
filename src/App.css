@@ -47,11 +47,17 @@
   text-shadow: 2px 2px black;
 }
 
+.App-countdown,
 .App-date {
   font-family: 'Old Standard TT', serif;
-  font-size: 2.1em;
+  font-size: 2em;
   font-style: italic;
+  margin: 0;
   /* text-shadow: 2px 2px black; */
+}
+
+.App-countdown {
+  display: none;
 }
 
 @keyframes App-logo-spin {
@@ -91,7 +97,10 @@
 
   .App-intro {
     margin-top: 15%;
-    margin-left: 15%;
+  }
+  
+  .App-countdown {
+    display: block;
   }
 
   .App-main {
@@ -103,8 +112,10 @@
     font-size: 3em;
   }
 
+  .App-countdown,
   .App-date {
-    font-size: 1.5em;
+    font-size: 1em;
+    margin: 0;
   }
 
   .flex-grow {
